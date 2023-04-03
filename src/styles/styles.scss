@@ -1,0 +1,12 @@
+$main-bg-ui: #0e131b;
+$component-selected: #1f2c38;
+$general-bg: #4e7560;
+$ui-bts-contents-bg: rgba(31, 44, 56, 0.7); 
+
+//Imports para estilos en específico fuera de bootstrap
+@import './main/main.scss';
+
+@import './auth/auth';
+@import './sesions/sesion';
+@import './ui/navbar';
+@import './ui/repos';

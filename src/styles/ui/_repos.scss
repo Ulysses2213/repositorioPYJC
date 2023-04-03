@@ -1,0 +1,59 @@
+.repos{
+    text-align: center;
+    background-color: $general-bg;
+    color: white;
+    width: 100%;
+    height: 90.5vh;
+    h1{
+        margin-top: 0.5rem;
+    }
+}
+
+.btns{
+    margin: 2rem;
+    button, .new{
+        margin: 0.5rem;
+        display: flex;
+        float: left;
+        border: none;
+        background-color: $ui-bts-contents-bg;
+        color: white;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .new{
+        float: right;
+    }
+    
+    button:hover, .new:hover{
+        opacity: 0.7;
+    }
+}
+
+.info{
+    margin: 2rem;
+    margin-top: 7rem;
+    background-color: $ui-bts-contents-bg;
+    border-radius: 5px;
+    height: 65%;
+    overflow: scroll;
+    padding: 2%;
+    padding-left: 4%;
+}
+
+.cd{
+    background-color: $ui-bts-contents-bg;
+    .cb{
+        background-color: $ui-bts-contents-bg;
+        .box{
+            padding: 0.5rem;
+            width: 70%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 0.5rem;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+    }
+}

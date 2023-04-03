@@ -1,0 +1,52 @@
+.auth{
+    text-align: center;
+    display: flex;
+    color: white;
+    .side{
+        display: block;
+        background-color: #1f2c38;
+        width: 30%;
+        height: 100vh;
+        h1{
+            margin-top: 1rem;
+        }
+        .logo{
+            margin-top: 3rem;
+            img{
+                max-width: 20vw;
+            }
+        }
+        .form-login{
+            margin: 0.5rem;
+            text-align: start;
+            label{
+                padding: 0px;
+            }
+            button{
+                border: none;
+                background-color: #599876;
+                border-radius: 4px;
+                color: #1f2c38;
+            }
+            button:hover{
+                opacity: 0.7;
+            }
+        }
+    }
+    .auth{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        //background: linear-gradient(57.35deg, rgba(89, 152, 118, 0.4) 30%, rgba(147,255,161,0.7) 100%);
+        background-color: #599876;
+
+        .img-content{
+            //margin-top: 4rem;
+            img{
+                opacity: 0.6;
+                width: 100%;
+                height: 100vh;
+            }
+        }
+    }
+}

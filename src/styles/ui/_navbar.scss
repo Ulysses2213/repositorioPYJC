@@ -1,0 +1,40 @@
+.navbar{
+    background-color: $main-bg-ui;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    z-index: 10;
+    padding: 0px;
+    ul{
+        list-style: none;
+        float: right;
+        display: flex;
+        text-align: center;
+        li{
+            margin: 0.5rem;
+            a{ 
+                text-decoration: none;
+                &.active{
+                    background-color: $component-selected;
+                }
+            }
+            a:hover{
+                background-color: $component-selected;
+            }
+            img{
+                width: 70px;
+                height: 60px;
+                padding-bottom: 0.7rem;
+            }
+        }
+    }
+
+    .logo{
+        margin: 0rem;
+        list-style: none;
+        float: left;
+        display: flex;
+        text-align: center;
+    }
+}

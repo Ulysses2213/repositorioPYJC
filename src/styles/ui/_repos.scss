@@ -23,6 +23,8 @@
     }
     .new{
         float: right;
+        list-style: none;
+        text-decoration: none;
     }
     
     button:hover, .new:hover{
@@ -39,6 +41,10 @@
     overflow: scroll;
     padding: 2%;
     padding-left: 4%;
+
+    .no-repo{
+        margin-top: 10%;
+    }
 }
 
 .cd{

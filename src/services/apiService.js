@@ -27,3 +27,25 @@ export const postData = async(controller, obj) => {
         })
     }
 }
+
+export const getData = async(controller) => {
+    let URL = ''
+    switch(process.env.REACT_APP_AMB){
+        case 'devMain': URL = 'http://localhost:8000'; break
+        case 'devSnd':  URL = 'http://localhost:8001'; break
+    }
+
+    try{
+        const response = await axios({
+            url: URL+'/api/'+controller,
+            method: 'GET'
+        })
+        return response
+    }catch(e){
+        Swal.fire({
+            icon: 'error',
+            title: '¡ERROR!',
+            text: 'Ocurrió un error al intentar contectarse a servidor'
+        })
+    }
+}
